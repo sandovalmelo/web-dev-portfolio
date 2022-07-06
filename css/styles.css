@@ -41,4 +41,9 @@ nav {
   nav .contact-btn {
     display: none; }
 
+header .heading-title {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+
 /*# sourceMappingURL=styles.css.map */
