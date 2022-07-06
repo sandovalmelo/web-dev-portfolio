@@ -41,9 +41,21 @@ nav {
   nav .contact-btn {
     display: none; }
 
-header .heading-title {
-  font-size: 1.75rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem; }
+header {
+  margin-bottom: 3.5rem; }
+  header .heading-title {
+    font-size: 1.75rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem; }
+
+.companies {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 1rem; }
+  .companies-container {
+    display: flex;
+    justify-content: center; }
+    .companies-container img {
+      max-width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */

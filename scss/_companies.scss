@@ -1,0 +1,14 @@
+.companies {
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+	gap: 1rem;
+
+	&-container {
+		display: flex;
+		justify-content: center;
+
+		img {
+			max-width: 100%;
+		}
+	}
+}
