@@ -1,0 +1,29 @@
+$contact-button: #fbe850;
+$body-color: #0a0a0b;
+$secondary-color: #2e3038;
+
+$title-color: #ffffff;
+$text-color: #adadad;
+
+$title-font: "Prata", serif;
+$text-font: "Inter", sans-serif;
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $body-color;
+	color: $text-color;
+	font-family: $text-font;
+}
+
+h1,
+h2 {
+	color: $title-color;
+	font-family: $title-font;
+}

@@ -1,4 +1,18 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 body {
-  background-color: teal; }
+  background-color: #0a0a0b;
+  color: #adadad;
+  font-family: "Inter", sans-serif; }
+
+h1,
+h2 {
+  color: #ffffff;
+  font-family: "Prata", serif; }
 
 /*# sourceMappingURL=styles.css.map */
