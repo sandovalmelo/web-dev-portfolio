@@ -17,10 +17,16 @@ header {
 
 @media (min-width: 1023px) {
 	header {
-		max-width: 65%;
+		max-width: 1024px;
+		margin: 0 auto;
+
+		.heading-title {
+			max-width: 65%;
+		}
 
 		.heading-text {
 			padding-right: 2rem;
+			max-width: 65%;
 		}
 	}
 }

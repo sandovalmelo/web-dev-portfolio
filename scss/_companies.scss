@@ -23,6 +23,8 @@
 
 @media (min-width: 1023px) {
 	.companies {
+		max-width: 1024px;
+		margin: 0 auto;
 		grid-template-columns: repeat(6, 1fr);
 	}
 }

@@ -21,6 +21,9 @@
 @media (min-width: 1023px) {
 	.about {
 		&-container {
+			max-width: 1024px;
+			margin: 0 auto;
+
 			display: grid;
 			gap: 0 1.5rem;
 			grid-template-columns: repeat(2, 1fr);

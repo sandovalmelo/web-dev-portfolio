@@ -57,15 +57,18 @@ nav {
     display: none; }
 
 @media (min-width: 1023px) {
-  nav ul {
-    display: flex;
-    gap: 0.5rem; }
-    nav ul li {
-      padding: 0.75rem 0.5rem; }
-  nav .contact-btn {
-    display: block; }
-  nav .menu-icon {
-    display: none; } }
+  nav {
+    max-width: 1024px;
+    margin: 0 auto; }
+    nav ul {
+      display: flex;
+      gap: 0.5rem; }
+      nav ul li {
+        padding: 0.75rem 0.5rem; }
+    nav .contact-btn {
+      display: block; }
+    nav .menu-icon {
+      display: none; } }
 header {
   padding: 2rem 1.5rem; }
   header .heading-title {
@@ -77,9 +80,13 @@ header {
     font-size: 3rem; } }
 @media (min-width: 1023px) {
   header {
-    max-width: 65%; }
+    max-width: 1024px;
+    margin: 0 auto; }
+    header .heading-title {
+      max-width: 65%; }
     header .heading-text {
-      padding-right: 2rem; } }
+      padding-right: 2rem;
+      max-width: 65%; } }
 .companies {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -97,6 +104,8 @@ header {
     gap: 1.5rem; } }
 @media (min-width: 1023px) {
   .companies {
+    max-width: 1024px;
+    margin: 0 auto;
     grid-template-columns: repeat(6, 1fr); } }
 .projects {
   padding: 2rem 1.5rem; }
@@ -121,6 +130,8 @@ header {
     margin: 1.25rem 0; } }
 @media (min-width: 1023px) {
   .projects {
+    max-width: 1024px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem; } }
@@ -137,6 +148,8 @@ header {
 
 @media (min-width: 1023px) {
   .about-container {
+    max-width: 1024px;
+    margin: 0 auto;
     display: grid;
     gap: 0 1.5rem;
     grid-template-columns: repeat(2, 1fr);
@@ -153,6 +166,8 @@ header {
 
 @media (min-width: 1023px) {
   .contact {
+    max-width: 1024px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem; }
@@ -170,5 +185,10 @@ footer {
     justify-content: space-between; }
   footer .social-links img {
     margin-left: 0.5rem; }
+
+@media (min-width: 1023px) {
+  footer .footer-container {
+    max-width: 1024px;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=styles.css.map */

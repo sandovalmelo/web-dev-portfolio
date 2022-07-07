@@ -15,6 +15,9 @@ nav {
 
 @media (min-width: 1023px) {
 	nav {
+		max-width: 1024px;
+		margin: 0 auto;
+
 		ul {
 			display: flex;
 			gap: 0.5rem;
