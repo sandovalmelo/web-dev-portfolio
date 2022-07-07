@@ -64,10 +64,13 @@ header .heading-title {
   .projects .project img {
     max-width: 100%; }
   .projects .project-link {
-    display: block;
+    display: inline-flex;
+    align-items: center;
     font-family: "Prata", serif;
     color: #ffffff;
     font-size: 1.75rem;
     margin: 1rem 0; }
+    .projects .project-link span {
+      margin-left: 0.5rem; }
 
 /*# sourceMappingURL=styles.css.map */
