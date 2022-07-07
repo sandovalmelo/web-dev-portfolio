@@ -17,3 +17,25 @@
 		}
 	}
 }
+
+@media (min-width: 1023px) {
+	.about {
+		&-container {
+			display: grid;
+			gap: 0 1.5rem;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(2, auto);
+		}
+
+		&-text {
+			&:first-of-type {
+				grid-column: 1 / 2;
+			}
+
+			&:last-of-type {
+				grid-column: 2 / -1;
+				grid-row: 1 / -1;
+			}
+		}
+	}
+}
