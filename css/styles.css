@@ -8,8 +8,7 @@
 body {
   background-color: #0a0a0b;
   color: #adadad;
-  font-family: "Inter", sans-serif;
-  padding: 0 1.5rem; }
+  font-family: "Inter", sans-serif; }
 
 h1,
 h2 {
@@ -29,7 +28,7 @@ p {
   line-height: 1.5; }
 
 nav {
-  padding: 2rem 0;
+  padding: 2rem 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -41,15 +40,18 @@ nav {
   nav .contact-btn {
     display: none; }
 
-header .heading-title {
-  font-size: 1.75rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem; }
+header {
+  padding: 0 1.5rem; }
+  header .heading-title {
+    font-size: 1.75rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem; }
 
 .companies {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+  padding: 0 1.5rem;
   margin-top: 3.5rem;
   margin-bottom: 3.5rem; }
   .companies-container {
@@ -60,7 +62,7 @@ header .heading-title {
 
 .projects .project {
   margin-bottom: 2rem;
-  padding-bottom: 1.5rem; }
+  padding: 0 1.5rem 1.5rem; }
   .projects .project img {
     max-width: 100%; }
   .projects .project-link {
@@ -72,5 +74,8 @@ header .heading-title {
     margin: 1rem 0; }
     .projects .project-link span {
       margin-left: 0.5rem; }
+
+.about {
+  background-color: #2e3038; }
 
 /*# sourceMappingURL=styles.css.map */
