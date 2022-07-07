@@ -72,7 +72,8 @@ header {
   .projects .project {
     margin-bottom: 2rem; }
     .projects .project img {
-      max-width: 100%; }
+      width: 100%;
+      display: block; }
     .projects .project-link {
       display: inline-flex;
       align-items: center;
