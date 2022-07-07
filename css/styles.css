@@ -40,6 +40,12 @@ p {
   display: inline-block;
   font-weight: bold; }
 
+@media (min-height: 767px) {
+  p {
+    font-size: 1rem; }
+
+  h2 {
+    font-size: 2rem; } }
 nav {
   padding: 2rem 1.5rem;
   display: flex;
@@ -56,6 +62,9 @@ header {
     font-size: 1.75rem;
     margin-bottom: 1rem; }
 
+@media (min-height: 767px) {
+  header .heading-title {
+    font-size: 3rem; } }
 .companies {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -67,6 +76,10 @@ header {
     .companies-container img {
       max-width: 100%; }
 
+@media (min-height: 767px) {
+  .companies {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem; } }
 .projects {
   padding: 2rem 1.5rem; }
   .projects .project {
@@ -84,6 +97,10 @@ header {
       .projects .project-link span {
         margin-left: 0.5rem; }
 
+@media (min-height: 767px) {
+  .projects .project-link {
+    font-size: 2rem;
+    margin: 1.25rem 0; } }
 .about {
   background-color: #2e3038;
   padding: 4rem 1.5rem; }

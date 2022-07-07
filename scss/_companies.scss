@@ -13,3 +13,10 @@
 		}
 	}
 }
+
+@media (min-height: 767px) {
+	.companies {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1.5rem;
+	}
+}

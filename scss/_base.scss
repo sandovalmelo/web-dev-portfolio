@@ -57,3 +57,13 @@ p {
 	display: inline-block;
 	font-weight: bold;
 }
+
+@media (min-height: 767px) {
+	p {
+		font-size: 1rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+}
