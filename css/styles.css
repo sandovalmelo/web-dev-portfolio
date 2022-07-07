@@ -41,21 +41,33 @@ nav {
   nav .contact-btn {
     display: none; }
 
-header {
-  margin-bottom: 3.5rem; }
-  header .heading-title {
-    font-size: 1.75rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem; }
+header .heading-title {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
 
 .companies {
   display: grid;
-  grid-template-columns: repeat(2, 50%);
-  gap: 1rem; }
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem; }
   .companies-container {
     display: flex;
     justify-content: center; }
     .companies-container img {
       max-width: 100%; }
+
+.projects .project {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem; }
+  .projects .project img {
+    max-width: 100%; }
+  .projects .project-link {
+    display: block;
+    font-family: "Prata", serif;
+    color: #ffffff;
+    font-size: 1.75rem;
+    margin: 1rem 0; }
 
 /*# sourceMappingURL=styles.css.map */
