@@ -56,6 +56,16 @@ nav {
   nav .contact-btn {
     display: none; }
 
+@media (min-width: 1023px) {
+  nav ul {
+    display: flex;
+    gap: 0.5rem; }
+    nav ul li {
+      padding: 0.75rem 0.5rem; }
+  nav .contact-btn {
+    display: block; }
+  nav .menu-icon {
+    display: none; } }
 header {
   padding: 2rem 1.5rem; }
   header .heading-title {
