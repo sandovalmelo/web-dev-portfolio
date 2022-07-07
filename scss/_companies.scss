@@ -14,9 +14,15 @@
 	}
 }
 
-@media (min-height: 767px) {
+@media (min-width: 767px) {
 	.companies {
 		grid-template-columns: repeat(3, 1fr);
 		gap: 1.5rem;
+	}
+}
+
+@media (min-width: 1023px) {
+	.companies {
+		grid-template-columns: repeat(6, 1fr);
 	}
 }
