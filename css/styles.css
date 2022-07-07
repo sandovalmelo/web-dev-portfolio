@@ -75,6 +75,11 @@ header {
 @media (min-width: 767px) {
   header .heading-title {
     font-size: 3rem; } }
+@media (min-width: 1023px) {
+  header {
+    max-width: 65%; }
+    header .heading-text {
+      padding-right: 2rem; } }
 .companies {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

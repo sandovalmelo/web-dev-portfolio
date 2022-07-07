@@ -14,3 +14,13 @@ header {
 		}
 	}
 }
+
+@media (min-width: 1023px) {
+	header {
+		max-width: 65%;
+
+		.heading-text {
+			padding-right: 2rem;
+		}
+	}
+}
