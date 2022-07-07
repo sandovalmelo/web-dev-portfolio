@@ -44,3 +44,9 @@
 		gap: 1.5rem;
 	}
 }
+
+@media (min-width: 1199px) {
+	.projects {
+		max-width: 1200px;
+	}
+}

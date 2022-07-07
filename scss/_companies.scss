@@ -28,3 +28,11 @@
 		grid-template-columns: repeat(6, 1fr);
 	}
 }
+
+@media (min-width: 1199px) {
+	.companies {
+		max-width: 1200px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
