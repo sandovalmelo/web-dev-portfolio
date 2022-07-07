@@ -1,0 +1,16 @@
+footer {
+	background-color: $secondary-color;
+	padding: 2rem;
+
+	.footer-container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.social-links {
+		img {
+			margin-left: 0.5rem;
+		}
+	}
+}
