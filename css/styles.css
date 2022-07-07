@@ -60,22 +60,31 @@ header {
     .companies-container img {
       max-width: 100%; }
 
-.projects .project {
-  margin-bottom: 2rem;
-  padding: 0 1.5rem 1.5rem; }
-  .projects .project img {
-    max-width: 100%; }
-  .projects .project-link {
-    display: inline-flex;
-    align-items: center;
-    font-family: "Prata", serif;
-    color: #ffffff;
-    font-size: 1.75rem;
-    margin: 1rem 0; }
-    .projects .project-link span {
-      margin-left: 0.5rem; }
+.projects {
+  padding: 1.5rem; }
+  .projects .project {
+    margin-bottom: 2rem; }
+    .projects .project img {
+      max-width: 100%; }
+    .projects .project-link {
+      display: inline-flex;
+      align-items: center;
+      font-family: "Prata", serif;
+      color: #ffffff;
+      font-size: 1.75rem;
+      margin: 1rem 0; }
+      .projects .project-link span {
+        margin-left: 0.5rem; }
 
 .about {
-  background-color: #2e3038; }
+  background-color: #2e3038;
+  padding: 3rem 1.5rem; }
+  .about h2 {
+    margin-bottom: 1.5rem; }
+  .about-text p {
+    line-height: 1.5;
+    margin-bottom: 1.5rem; }
+    .about-text p:last-of-type {
+      margin-bottom: 0; }
 
 /*# sourceMappingURL=styles.css.map */
