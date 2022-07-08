@@ -1,8 +1,9 @@
 footer {
 	background-color: $secondary-color;
-	padding: 2rem;
+	padding: 2rem 0;
 
 	.footer-container {
+		padding: 0 1.5rem;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -26,8 +27,6 @@ footer {
 
 @media (min-width: 1199px) {
 	footer {
-		padding-left: 0;
-		padding-right: 0;
 		.footer-container {
 			max-width: 1200px;
 		}

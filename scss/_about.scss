@@ -1,18 +1,22 @@
 .about {
 	background-color: $secondary-color;
-	padding: 4rem 1.5rem;
+	padding: 4rem 0;
 
-	h2 {
-		margin-bottom: 1.5rem;
-	}
+	&-container {
+		padding: 0 1.5rem;
 
-	&-text {
-		p {
-			line-height: 1.5;
+		h2 {
 			margin-bottom: 1.5rem;
+		}
 
-			&:last-of-type {
-				margin-bottom: 0;
+		&-text {
+			p {
+				line-height: 1.5;
+				margin-bottom: 1.5rem;
+
+				&:last-of-type {
+					margin-bottom: 0;
+				}
 			}
 		}
 	}
