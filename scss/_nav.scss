@@ -24,6 +24,10 @@ nav {
 
 			li {
 				padding: 0.75rem 0.5rem;
+
+				&:hover {
+					color: $title-color;
+				}
 			}
 		}
 

@@ -70,6 +70,8 @@ nav {
       gap: 0.5rem; }
       nav ul li {
         padding: 0.75rem 0.5rem; }
+        nav ul li:hover {
+          color: #ffffff; }
     nav .contact-btn {
       display: block; }
     nav .menu-icon {
