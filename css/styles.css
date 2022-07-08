@@ -36,6 +36,7 @@ p {
   background-color: #fbe850;
   color: #0a0a0b;
   font-family: "Prata", serif;
+  border: none;
   padding: 1rem 2rem;
   display: inline-block;
   font-weight: bold; }
